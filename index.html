@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-egde">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Pizzorinor</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="http://127.0.0.1:5500/index.html">Pizzorinor</a>
+            <a href="index.html" class="couleur">Pizzorinor</a>
+        </nav>
+        <nav class="navbar">
+            <ul>
+                <a href="#description">Description</a>
+                <a href="#toppings">Our toppings</a>
+                <a href="#contact">contact</a>
+            </ul>
         </nav>
     </header>
-    <section>
-        <article>
-            <h3>best pizzas uder the ocean</h3>
-            <img src="Image7.jpg" alt="error">
+    <section class="section1">
+        <article class="section-1">
+            <div class="imgtitle"><h3>best pizzas uder the ocean</h3></div>
+            <div><img src="Image7.jpg" alt="pizza image" class="image1"></div>
+            
         </article>
     </section>
-    <section>
-        <article>
-            <p>Welcome to "Deep Dish Delights," the world's first underwater pizzeria, where culinary excellence meets aquatic wonder! Nestled beneath the ocean's surface, our unique establishment invites you to embark on a dining adventure like no other.
+    <section class="section2">
+        <article class="section-2">
+            <h2 class="desctitle">Deep Dish Delights</h2>
+            <p class="par">Welcome to "Deep Dish Delights," the world's first underwater pizzeria, where culinary excellence meets aquatic wonder! Nestled beneath the ocean's surface, our unique establishment invites you to embark on a dining adventure like no other.
 
                 Dive into a mesmerizing world of marine magic as you enter our carefully crafted underwater haven. The interior, adorned with ethereal lighting and mesmerizing aquatic decor, transports you to an enchanting undersea realm. Large observation windows offer breathtaking views of the surrounding ocean life, providing an immersive experience with every bite.
                 
@@ -29,27 +39,40 @@
                 At Deep Dish Delights, we prioritize sustainability and environmental consciousness. Our ingredients are sourced responsibly, and we take pride in contributing to ocean conservation efforts. Our commitment to both culinary excellence and marine preservation sets us apart as a truly unique dining destination.
                 
                 Whether you're a seasoned ocean enthusiast or a landlubber seeking a taste of the extraordinary, Deep Dish Delights invites you to submerge yourself in a culinary experience that transcends the ordinary. Join us in celebrating the beauty of the underwater world, one slice at a time.</p>
-            <img src="téléchargé.jfif" alt="error">
+            <img src="téléchargé.jfif" alt="Our personnal" class="img2">
         </article>
     </section>
 
-    <section>
-        <h3>our tops</h3>
-        <div>
-            <h6>pepperoni</h6>
-            <h6>chiken</h6>
-            <h6>meat</h6>
-            <h6>kebbab</h6>
-        </div>
+    <section class="section3" id="toppings">
+        <h2 class="tops">Our toppings</h2>
+    <ul class="list">
+        <li>
+            pepperoni
+            <img src="pepperoni.webp" alt="pepperoni pizza" class="image2">
+        </li>
+        <li>
+            chiken
+            <img src="chicken.jpg" alt="chicken pizza" class="image3">
+        </li>
+        <li>
+            meat
+            <img src="téléchargé (1).jfif" alt="" class="image4">
+        </li>
+        <li>
+            kebbab
+            <img src="i34237-pizza-kebab-turque.jpg" alt="" class="image5">
+        </li>
+        
+    </ul>
     </section>
-    <section>
+    <section class="section4" id="contact">
         <form>
             <label for="name">Massil</label>
             <label for="number">+178849946</label>
             <input type="button" name="send" value="SEND" />
         </form>
     </section>
-    <footer>
+    <footer class="footer">
         <p> copyright2088. All copyrights preserved.</p>
         <p>+178849946</p>
     </footer>
